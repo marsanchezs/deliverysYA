@@ -7,16 +7,20 @@ import androidx.navigation.NavController
 
 @Composable
 fun loginScreen(navController: NavController) {
+    //Las funciones Composables van en mayúscula fun LoginScreen(navController: NavController)
     login()
 }
 
 @Composable
 fun login() {
+    //fun Login() 
     Text("Login")
 }
 
 @Preview(showBackground = true)
 @Composable
 fun loginScreenPreview() {
+    //fun LoginScreenPreview()
     login()
+    //Login()
 }
