@@ -18,6 +18,7 @@ import com.example.deliverysya.R
 import com.example.deliverysya.presentation.navigation.AppScreen
 import kotlinx.coroutines.delay
 
+//SplashScreen, Splash, SplashScreenPreview, funciones Composables comienzan con mayúsculas
 @Composable
 fun splashScreen(navController: NavController) {
 
